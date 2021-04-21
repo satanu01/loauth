@@ -1,0 +1,30 @@
+Executing Commands
+------------------------------------------
+
+make:
+	for compile and prepare executable file.
+
+
+Server Side:     
+	[  Executing_File  ]
+
+Sample: 
+	./xmppserver
+
+
+
+
+
+Client Side: 
+    [  Executing_File JID Working_Mode Msg_Length(only publish mode)  ]     [ Working_Mode:= pub- publish | sub- Subscribe ]
+
+Sample:
+	./xmppclient1 satanu@localhost sub
+	./xmppclient2 pabitra@localhost pub 100
+
+
+
+
+
+Script.sh :
+	Used for deployed multiple no of client at a time by single command. You have to manually modify the no of client in listening mode.

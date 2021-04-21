@@ -1,0 +1,32 @@
+Executing Commands
+------------------------------------------
+
+
+make:
+	for compile and prepare executable file.
+	
+
+
+Server Side:     
+	[  Executing_File PORT_No.  ]
+
+Sample: 
+	./bhserver 7001
+
+
+
+
+
+Client Side: 
+    [  Executing_File PORT_No. Working_Mode Msg_Length(Only Sending Mode)  ]     [Working_Mode: L- Listen | S- Send]
+
+Sample:
+	./bhclient1 7001 L
+	./bhclient2 7001 S 100
+	
+	
+	
+
+Script.sh :
+	Used for deployed multiple no of client at a time by single command. You have to manually modify the no of client in listening mode.
+
